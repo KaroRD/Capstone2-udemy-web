@@ -1,0 +1,46 @@
+.section-background {
+  background: rgb(139, 139, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(139, 139, 139, 1) 0%,
+    rgba(187, 187, 187, 1) 18%,
+    rgba(251, 251, 251, 1) 81%
+  );
+  background-size: 180% 180%;
+  animation: gradient-animation 10 s ease infinite;
+}
+
+h1.title, .firs_word{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(131, 8, 8) !important;
+}
+
+.private {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.detect {
+  text-transform: capitalize;
+}
+.prof {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.Darik_Frost {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card_pic {
+  height: 200px;
+  width: 200px;
+
+  border: 100vh;
+}
+
+.card-text {
+  border: 20px;
+  border-color: black;
+}
